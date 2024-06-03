@@ -7,7 +7,7 @@ with open('config.yaml', 'r') as file:
 
 # Load the Jinja2 template
 env = Environment(loader=FileSystemLoader('.'))
-template = env.get_template('template.html.j2')
+template = env.get_template('template2.html.j2')
 
 # Render the template with the configuration data
 output = template.render(config)
