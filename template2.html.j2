@@ -246,11 +246,11 @@
          </td>
         </tr>
 
-        {% for event in events %}
-            <tr>
+        <tr>
             <td valign="top">
-
-              <!-- BEGIN MODULE: Event -->
+                
+                <!-- BEGIN MODULE: Event -->
+            {% for event in events %}
               <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
                <tr>
                 <td class="pc-w620-spacing-0-0-0-0" style="padding: 10px 0px 0px 0px;">
@@ -304,7 +304,7 @@
                            </tr>
                           </table>
                          </td>
-                         {% for tag in events.tags %}
+                         <!-- {% for tag in events.tags %}
                          <td class="pc-grid-td-last pc-w620-itemsSpacings-0-30" valign="top" style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 5px;">
                           <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse: separate; border-spacing: 0; width: 100%;">
                            <tr>
@@ -352,7 +352,7 @@
                                        </tr>
                                       </table>
                                      </td>
-                                     {% endfor %}
+                                     {% endfor %} -->
 
                               </tr>
                               <tr>
@@ -413,10 +413,10 @@
                 </td>
                </tr>
               </table>
+              {% endfor %}
               <!-- END MODULE: Event -->
              </td>
             </tr>
-        {% endfor %}
         <!-- BEGIN MODULE: Event -->
         <!-- <tr>
          <td valign="top">
