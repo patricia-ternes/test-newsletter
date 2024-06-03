@@ -1,14 +1,20 @@
-title: "Upcoming Training wqe "
-heading: "aaa Places are now available for upcoming Research Computing training courses, sign up now!"
-body: "111 Listed below are the training sessions we are hosting in the coming weeks."
+title: "Upcoming Training"
+heading: "Places are now available for upcoming Research Computing training courses, sign up now!"
+body: "Listed below are the training sessions we are hosting in the coming weeks."
 
 events:
   - title: "Introduction to Python programming"
     date: "2024-06-10"
-    tags: ["2 Days", "In-Person"]
+    tags:
+      - "2 Days"
+      - "In-Person"
     link: "https://example.com/event1"
+    description: "This is an introduction to programming in Python for people with little or no previous programming experience."
     
   - title: "Event 2"
     date: "2024-06-15"
-    tags: ["tag3", "tag4"]
+    tags:
+      - "tag3"
+      - "tag4"
     link: "https://example.com/event2"
+    description: "This is a test."
