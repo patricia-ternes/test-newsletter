@@ -270,7 +270,6 @@
                                   <div class="pc-font-alt" style="line-height: 140%; letter-spacing: -0.2px; font-family: 'Inter', Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 800; font-variant-ligatures: normal; color: #ffffff; text-align: center; text-align-last: center;">
                                     {% for date in event.dates %}
                                       <div><span>{{ date.strftime('%d %b') }}{% if not loop.last %}, {% endif %}</span></div>
-                                    <!-- <div><span>26 September</span></div> -->
                                     {% endfor %}
                                     <div><span>{{ event.dates[0].year }}</span></div>                                  
                                   </div>
@@ -313,6 +312,7 @@
                               <td align="left" style="padding: 10px 0px 0px 10px;">
                                <table class="pc-width-hug pc-w620-gridCollapsed-1" align="left" border="0" cellpadding="0" cellspacing="0" role="presentation">
                                 <tr class="pc-grid-tr-first pc-grid-tr-last">
+                                 
                                  <td class="pc-grid-td-first pc-w620-itemsSpacings-0-30" valign="top" style="padding-top: 0px; padding-right: 5px; padding-bottom: 0px; padding-left: 0px;">
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse: separate; border-spacing: 0;">
                                    <tr>
@@ -334,7 +334,8 @@
                                    </tr>
                                   </table>
                                  </td>
-                                 <td class="pc-grid-td-last pc-w620-itemsSpacings-0-30" valign="top" style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 5px;">
+
+                                 <!-- <td class="pc-grid-td-last pc-w620-itemsSpacings-0-30" valign="top" style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 5px;">
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse: separate; border-spacing: 0;">
                                    <tr>
                                     <td align="left" valign="top">
@@ -354,7 +355,7 @@
                                     </td>
                                    </tr>
                                   </table>
-                                 </td>
+                                 </td> -->
                                 </tr>
                                </table>
                               </td>

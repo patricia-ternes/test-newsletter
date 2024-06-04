@@ -1,6 +1,6 @@
-title: "My Newsletter - Test 1"
-heading: "Welcome to the Newsletter"
-body: "This is the body of the newsletter. Here you can put any information you want."
+title: "Title"
+heading: "Short heading"
+body: "This is the body of the advertising. Here you can put any information you want."
 
 events:
   - title: "Event 1"
