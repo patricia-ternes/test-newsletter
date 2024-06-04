@@ -4,13 +4,16 @@ body: "This is the body of the newsletter. Here you can put any information you 
 
 events:
   - title: "Event 1"
-    date: "2024-06-10"
+    dates:
+      - 2024-02-20
     tags: ["tag1", "tag2"]
     summary: "This is a summary of the event."
     link: "https://example.com/event1"
     
   - title: "Event 2"
-    date: "2024-06-15"
+    dates:
+      - 2024-03-05
+      - 2024-03-12
     tags: ["tag3", "tag4"]
     summary: "This is an introduction to programming in Python for people with little or no previous programming experience."
     link: "https://example.com/event2"
