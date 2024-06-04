@@ -1,14 +1,25 @@
-title: "My Newsletter - Test 1"
-heading: "Welcome to the Newsletter"
-body: "This is the body of the newsletter. Here you can put any information you want."
+title: "Title"
+heading: "Short heading"
+body: "This is the body of the advertising. Here you can put any information you want."
 
 events:
   - title: "Event 1"
-    date: "2024-06-10"
-    tags: ["tag1", "tag2"]
-    link: "https://example.com/event1"
+    dates:
+      - 2024-02-20
+    tags:
+      - "tag1"
+      - "tag2"
+    summary: "This is a summary of the event 1."
+    url: "https://example.com/event1"
     
   - title: "Event 2"
-    date: "2024-06-15"
-    tags: ["tag3", "tag4"]
-    link: "https://example.com/event2"
+    dates:
+      - 2024-03-05
+      - 2024-03-12
+    tags:
+      - "tag3"
+      - "tag4"
+      - "tag5"
+    summary: "This is a summary of the event 2."
+    url: "https://example.com/event2"
+    
