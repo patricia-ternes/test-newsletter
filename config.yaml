@@ -9,7 +9,7 @@ events:
     tags:
       - "tag1"
       - "tag2"
-    summary: "This is a summary of the event."
+    summary: "This is a summary of the event 1."
     url: "https://example.com/event1"
     
   - title: "Event 2"
@@ -20,6 +20,6 @@ events:
       - "tag3"
       - "tag4"
       - "tag5"
-    summary: "This is an introduction to programming in Python for people with little or no previous programming experience."
+    summary: "This is a summary of the event 2."
     url: "https://example.com/event2"
     
