@@ -79,3 +79,4 @@ Some things that can be further improved
 - **Event grid**. In the moment the width of the grid is somehow set to auto. So depending on the Event description size, the blue box for calendar and date change the size. It would better find a better layout definition
 - **Jinja2 GH Action?** I created a very standard python script for using jinja2. It should exist some equivalent GitHub Action to do this without the python script.
 - **GH Action Warning:** Note.js is dreprecated, so it is necessary update the GH Action.
+a
