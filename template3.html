@@ -269,10 +269,10 @@
                                  <td valign="top" align="center">
                                   <div class="pc-font-alt" style="line-height: 140%; letter-spacing: -0.2px; font-family: 'Inter', Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 800; font-variant-ligatures: normal; color: #ffffff; text-align: center; text-align-last: center;">
                                     {% for date in event.dates %}
-                                      <div><span>{{ date | date: "%d %b" }}</span></div>
+                                      <div><span>{{ date.strftime('%d %B') }}{% if not loop.last %}, {% endif %}</span></div>
                                     <!-- <div><span>26 September</span></div> -->
                                     {% endfor %}
-                                    <div><span>{{ event.dates[0] | date: "%Y" }}</span></div>                                  
+                                    <div><span>{{ event.dates[0].year }}</span></div>                                  
                                   </div>
                                  </td>
                                 </tr>
